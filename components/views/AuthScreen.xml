@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<component name="AuthScreen" extends="CustomView" >
+
+	<!-- <interface>
+		<field id="buttonLogin" type="integer" alias="buttonLogin.buttonSelected"/>
+		<field id="buttonSignUp" type="integer" alias="buttonSignUp.buttonSelected"/>
+	</interface> -->
+
+	<children>
+
+		<Dialog id="dialog" />
+
+	</children>
+	<!-- importing main handler -->
+    <script type="text/brightscript" uri="pkg:/components/views/AuthScreen.brs" />
+</component>

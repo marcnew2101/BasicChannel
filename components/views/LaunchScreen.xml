@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--********** Copyright 2016 Roku Corp.  All Rights Reserved. **********-->
+
+<component name="LaunchScreen" extends="Group" >
+
+	<interface>
+		<field id="buttonLogin" type="integer" alias="buttonLogin.buttonSelected"/>
+		<field id="buttonSignUp" type="integer" alias="buttonSignUp.buttonSelected"/>
+	</interface>
+
+	<children>
+
+		<Button id="buttonLogin" />
+		<Button id="buttonSignUp" />
+
+	</children>
+	<!-- importing main handler -->
+    <script type="text/brightscript" uri="pkg:/components/views/LaunchScreen.brs" />
+</component>
